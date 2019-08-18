@@ -1,4 +1,4 @@
-# VQ-VAE_Keras_Implementation
+# VQ-VAE Keras Implementation
 
 ## Keras implementaion of VQ-VAE (Vector Quantizer Variational AutoEncoder)
 
