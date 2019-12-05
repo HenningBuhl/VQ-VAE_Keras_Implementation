@@ -13,3 +13,7 @@ Example Notebook: [![Open In Colab](https://colab.research.google.com/assets/col
 ## Original vs Reconstructed
 
 ![alt text](https://drive.google.com/uc?export=view&id=1fzeOsohJ-sciamvIlmlQfqzB4ntpCwxt)
+
+## Note
+
+The Notebook does not work with TensorFlow 2.x
