@@ -12,7 +12,7 @@ Example Notebook: [![Open In Colab](https://colab.research.google.com/assets/col
 
 ## Original vs Reconstructed
 
-![alt text](https://drive.google.com/uc?export=view&id=1fzeOsohJ-sciamvIlmlQfqzB4ntpCwxt)
+![alt text](https://raw.githubusercontent.com/HenningBuhl/VQ-VAE_Keras_Implementation/master/recon_example.png)
 
 ## Note
 
