@@ -14,6 +14,8 @@ Example Notebook: [![Open In Colab](https://colab.research.google.com/assets/col
 
 ![alt text](https://raw.githubusercontent.com/HenningBuhl/VQ-VAE_Keras_Implementation/master/recon_example.png)
 
-## Note
+## Notes on compatability.
 
-The Notebook does not work with TensorFlow 2.x
+The Notebook was tested with TensorFlow version 2.2.0 and Keras version 2.3.1 and worked when removing the parameter validate_indices from the call tf.nn.embedding_lookup (it is a deprecated argument).
+
+If you have issues with eager execution with TensorFlow version 2.x or higher, issue #2 might help you.
