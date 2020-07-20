@@ -14,8 +14,10 @@ Example Notebook: [![Open In Colab](https://colab.research.google.com/assets/col
 
 ![alt text](https://raw.githubusercontent.com/HenningBuhl/VQ-VAE_Keras_Implementation/master/recon_example.png)
 
-## Notes on compatability.
+## Notes on compatability
 
-The Notebook was tested with TensorFlow version 2.2.0 and Keras version 2.3.1 and worked when removing the parameter validate_indices from the call tf.nn.embedding_lookup (it is a deprecated argument).
+* The notebook was created on a Google Colab machine (GPU accelerated) which ran TensorFlow version 1.x
 
-If you have issues with eager execution with TensorFlow version 2.x or higher, issue #2 might help you.
+* The notebook was tested with TensorFlow version 2.2.0 and Keras version 2.3.1 on a Google Colab machine (GPU accelerated) and worked when removing the parameter validate_indices from the call tf.nn.embedding_lookup (it is a deprecated argument).
+
+* If you have issues with eager execution with TensorFlow version 2.x or higher, issue #2 might help you.
